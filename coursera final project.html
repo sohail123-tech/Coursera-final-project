@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Chu's China Bistro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #cc0000;
+        }
+
+        .kosher-certified {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            text-align: right;
+        }
+
+        .delivery-note {
+            color: #cc0000;
+            font-weight: bold;
+        }
+
+        .content-section {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .columns-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+
+        .testimonials {
+            font-style: italic;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        .testimonials p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+            margin-top: 30px;
+        }
+
+        .hours-list {
+            list-style: none;
+            line-height: 1.6;
+        }
+
+        .address {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-text">Berahim.com</div>
+            <div class="logo-text">Berahim CHINA BISTRO</div>
+            <div class="kosher-certified">KOSHER CERTIFIED</div>
+        </div>
+        
+        <div class="nav-container">
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">About</a>
+                <a href="#">Awards</a>
+            </nav>
+            <div class="contact-info">
+                <div>410-602-5008</div>
+                <div class="delivery-note">*WE DELIVER</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-section">
+        <div class="columns-container">
+            <div>
+                <h2>Hours:</h2>
+                <ul class="hours-list">
+                    <li>Sun-Thurs: 11:15am - 10:00pm</li>
+                    <li>Fri: 11:15am - 2:30pm</li>
+                    <li>Saturday Closed</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Address:</h2>
+                <div class="address">
+                    7105 Reisterstown Road<br>
+                    Baltimore, MD 21215<br>
+                    * Delivery area within 3-4 miles,<br>
+                    with minimum order of $20 plus $3 charge<br>
+                    for all deliveries.
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+            <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </div>
+    </div>
+
+    <footer>
+        <div>© Copyright Berahim China Bistro</div>
+        <div>2024 | Admin</div>
+    </footer>
+</body>
+</html>
